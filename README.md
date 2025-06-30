@@ -9,7 +9,7 @@
     1. 다양한 임베딩 모델의 검색 성능을 객관적인 지표로 비교 분석.
     2. 청킹(Chunking) 및 재순위(Re-ranking) 등 고급 RAG 기법의 효과를 데이터로 검증.
     3. 최종적으로, 실제 서비스에 적용할 최고 성능의 모델 조합을 데이터에 기반하여 선정.
-- **관련 프로젝트**: [AI 날씨 어시스턴트](https://www.google.com/search?q=https://github.com/your-repo/your-weather-assistant-project) (가상 링크)
+- **관련 프로젝트**: [AI 날씨 어시스턴트](https://mosquito-forecast-weather-app-vo8cc4ipuxkavk6wux9pna.streamlit.app/) 
 
 ### **Ⅱ. 벤치마크 설계 (Benchmark Design)**
 
