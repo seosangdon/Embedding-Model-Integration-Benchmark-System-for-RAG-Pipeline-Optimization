@@ -1,5 +1,5 @@
-### **프로젝트: RAG 파이프라인 최적화를 위한 임베딩 모델 통합 벤치마크 시스템**
-
+### *프로젝트:Embedding Model Integration Benchmark System for RAG Pipeline Optimization*
+*** Performance benchmark test ***
 ### **Ⅰ. 개요**
 
 > AI 기반 챗봇 어시스턴트의 답변 품질에 핵심적인 영향을 미치는 RAG(검색 증강 생성) 파이프라인의 성능을 극대화하는 것을 목표로 합니다. 이를 위해, 독립적인 **'통합 벤치마크 시스템'**을 직접 개발하여 다양한 임베딩 모델(Retriever)과 재순위 모델(Re-ranker)의 조합을 실제 데이터 환경에서 체계적으로 평가하고, 최적의 아키텍처를 도출했습니다.
@@ -10,7 +10,7 @@
     3. 최종적으로, 실제 서비스에 적용할 최고 성능의 모델 조합을 데이터에 기반하여 선정.
 - **관련 프로젝트**: [AI 날씨 어시스턴트](https://www.google.com/search?q=https://github.com/your-repo/your-weather-assistant-project) (가상 링크)
 
-### **2. 벤치마크 설계 (Benchmark Design)**
+### **Ⅱ. 벤치마크 설계 (Benchmark Design)**
 
 **A. 평가 데이터셋 (Test Dataset)**
 
@@ -37,7 +37,7 @@ RAG 파이프라인의 검색 성능을 다각적으로 평가하기 위해 다�
 - **Re-ranker (2차 검토 모델)**
     - `BAAI/bge-reranker-v2-m3` (글로벌 SOTA Re-ranker)
 
-### **3. 성능 최적화 실험 및 검증**
+### **Ⅲ. 성능 최적화 실험 및 검증**
 
 구축된 벤치마크 시스템을 활용하여, 다음과 같은 체계적인 성능 최적화 실험을 진행했습니다.
 
