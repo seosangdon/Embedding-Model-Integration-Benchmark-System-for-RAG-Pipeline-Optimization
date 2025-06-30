@@ -1,6 +1,6 @@
-### *Embedding Model Integration Benchmark System for RAG Pipeline Optimization*
-### *** Performance benchmark test *** ###
-#---
+# *Embedding Model Integration Benchmark System for RAG Pipeline Optimization*
+#### *Performance benchmark test*
+---
 ### **Ⅰ. 개요**
 
 > AI 기반 챗봇 어시스턴트의 답변 품질에 핵심적인 영향을 미치는 RAG(검색 증강 생성) 파이프라인의 성능을 극대화하는 것을 목표로 합니다. 이를 위해, 독립적인 **'통합 벤치마크 시스템'**을 직접 개발하여 다양한 임베딩 모델(Retriever)과 재순위 모델(Re-ranker)의 조합을 실제 데이터 환경에서 체계적으로 평가하고, 최적의 아키텍처를 도출했습니다.
