@@ -1,10 +1,25 @@
+# requirements.txt
+
+# --- 핵심 해결책 ---
+# protobuf 버전을 4.x 미만으로 지정하여 호환성 문제 해결
+protobuf==3.20.3
+
+# --- 기존에 사용하시던 라이브러리들 ---
 streamlit
-chromadb
+openai
 sentence-transformers
-langchain
+# CrossEncoder를 사용하므로 sentence-transformers는 이미 포함되어 있습니다.
+chromadb
 langchain-openai
+langchain-core
+langgraph
+langchain
+supabase
+joblib
+scikit-learn  # RandomForest 모델을 위해 필요
+xgboost       # XGBoost 모델을 위해 필요
 pandas
-plotly
-torch
 numpy
-scikit-learn
+requests
+# 만약 torch나 tensorflow를 직접 설치했다면 버전을 명시해주는 것이 좋습니다.
+# 예: torch==2.1.0
