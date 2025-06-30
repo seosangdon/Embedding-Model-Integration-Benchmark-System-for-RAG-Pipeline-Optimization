@@ -57,7 +57,6 @@ RAG 파이프라인의 검색 성능을 다각적으로 평가하기 위해 다�
 | `intfloat/multilingual-e5-large` | 90.00% | 97.50% | +7.50%p |
 | `BM-K/KoSimCSE-roberta-multitask` | 77.50% | 97.50% | **+20.00%p** |
 
-Sheets로 내보내기
 
 실험 결과, 1차 검색에서는 검색에 특화된 다국어 모델인 `intfloat/multilingual-e5-base`가 95%로 가장 높은 성능을 보였고, **Re-ranker를 적용했을 때 Hit Rate 100%라는 완벽한 성능을 달성**하는 것을 확인했습니다. 특히 `KoSimCSE` 모델은 Re-ranker 적용 후 성능이 **20%p**나 극적으로 상승하며, 2-Stage 파이프라인 전략의 유효성을 명확히 증명했습니다.
 
