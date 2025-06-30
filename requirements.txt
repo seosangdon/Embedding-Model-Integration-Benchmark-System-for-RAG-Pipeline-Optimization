@@ -23,3 +23,4 @@ numpy
 requests
 # 만약 torch나 tensorflow를 직접 설치했다면 버전을 명시해주는 것이 좋습니다.
 # 예: torch==2.1.0
+pysqlite3-binary
